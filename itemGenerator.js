@@ -1,5 +1,5 @@
 const items = ["axe", "pot", "spear"];
-let itemsAdvailable = items;
+let itemsAdvailable = items.slice();
 let itemsUsed = [];
 
 function indexRandom(arr) {
