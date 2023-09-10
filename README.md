@@ -2,8 +2,7 @@
 
 ## What is TWCB?
 
-> [!NOTE] Concept
-> A narrative game focussed on understanding a vanished culture by interpreting procedurally generated artefacts.
+A narrative game focussed on understanding a vanished culture by interpreting procedurally generated artefacts.
 
 ## Progress
 
