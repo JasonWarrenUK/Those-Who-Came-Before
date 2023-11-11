@@ -13,12 +13,12 @@
     ];
 
   //MATERIALS
+    const materials = [bone, metal, stone, wood];
+    
     const bone = ["bone", "horn", "ivory"];
     const metal = ["bronze", "copper", "gold", "iron", "mercury", "pewter", "silver", "steel"];
     const stone = ["flint", "granite", "obsidian"];
     const wood = ["ash", "elm", "mahogany", "oak", "willow"];
-
-    const materials = [bone, metal, stone, wood];
 
   //THIS GAME
     let itemsAvailable = items.slice();
