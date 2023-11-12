@@ -3,25 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-
-  <link href="styles.css" rel="stylesheet">
-  <script defer src="itemGenerator.js"></script>
+  <title>Those Who Came Before</title>
+  <link href="styles/normalize.css" rel="stylesheet">
+  <link href="styles/dark.css" rel="stylesheet">
+  <link href="styles/styles.css" rel="stylesheet">
+  <script src="script/itemGenerator.js" defer></script>
 </head>
 
 <body>
-  <header></header>
+  <header>
+    <h1>Those Who Came Before</h1>
+    <pre>A Small Game About How We See the Past</pre>
+  </header>
+
+  <hr/>
 
   <main>
-    <div>
-      <button id="genButton">Generate</button>
-    </div>
-    
-    <div id="holder">
-      <p>Nothing Yet</p>
-    </div>
+    <section>
+      <h2>Item Generator</h2>
+      <div>
+        <button id="genButton">Generate</button>
+      </div>
+      
+      <div id="genHolder">
+      </div>
+    </section>
   </main>
 
-  <footer></footer>
+  <hr/>
+
+  <footer>
+    <pre>Created by <a href="https://github.com/neurosocialist">Jason Warren</a> & Harriet Layhe</pre>
+  </footer>
 </body>
 </html>
