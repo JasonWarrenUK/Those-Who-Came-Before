@@ -1,15 +1,17 @@
 import * as util from "../utilities";
 
+// Library
 const ornament = ["brooch", "pendant"]
-const pot = ["jar", "pot", "urn", "vase"];
+const store = ["jar", "pot", "urn", "vase"];
 const vessel = ["cup", "mug"];
 const weapon = ['axe', 'dagger', 'spear', 'sword'];
 
-
+// Sub-Categories
 const apparel = [ornament];
-const container = [pot, vessel];
+const container = [store, vessel];
 const tool = [weapon];
 
-const category = [apparel, ornament, tool];
+// Categories
+const category = [apparel, container, tool];
 
 export {category};
