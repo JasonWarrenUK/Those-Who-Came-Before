@@ -6,10 +6,10 @@ A narrative game focussed on understanding a vanished culture by interpreting pr
 
 ## Progress
 
-| What | Next |
-| :---: | :---: |
-| **Artefact Generation** | Improved item traits |
-| **Interface** | Basic functionality, such as a button to run item generation with a text readout of created items |
+| Aspect | Focus | Branch |
+| :---: | :---: | :---: |
+| **Artefact Generation** | Improved item traits | itemAnatomy |
+| **Interface** | Basic functionality, such as a button to run item generation with a text readout of created items | N/A |
 
 ## Badges
 
