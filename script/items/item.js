@@ -1,9 +1,9 @@
 import * as util from "../utilities";
 
-import {category as condition} from "./itemConditions";
-import {category as part} from "./itemParts";
-import {category as material} from "./itemMaterials";
-import {category as type} from "./itemTypes";
+import {category as condition} from "./conditions";
+import {category as part} from "./parts";
+import {category as material} from "./materials";
+import {category as type} from "./types";
 
 //Prototype
 const template = {};

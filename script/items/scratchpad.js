@@ -1,86 +1,87 @@
-const orientFace = {
-	location: [locBack, locFront],
-};
+import * as orient from "./orientation";
+import * as position from "./position";
 
-const orientStand = {
-	location: [locBottom, locTop],
-};
-
-const orientWield = {
-	location: [locNear, locFar],
-};
-
-const position = {
-
-};
-
-const itemAxe = {
+const axe = {
 	name: "",
-	orientation: [wield],
-	position: [held],
+	orientArr: [orient.wield],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemBrooch = {
+const brooch = {
 	name: "",
-	orientation: [face],
-	position: [worn],
+	orientArr: [orient.face],
+	orientDesc: "",
+	positionArr: [position.worn],
 };
-const itemCup = {
+const cup = {
 	name: "",
-	orientation: [hold, stand],
-	position: [held],
+	orientArr: [orient.hold, orient.stand],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemDagger = {
+const dagger = {
 	name: "",
-	orientation: [wield],
-	position: [held],
+	orientArr: [orient.wield],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemJar = {
+const jar = {
 	name: "",
-	orientation: [stand],
-	position: [free],
+	orientArr: [orient.stand],
+	orientDesc: "",
+	positionArr: [position.free],
 };
-const itemJug = {
+const jug = {
 	name: "",
-	orientation: [stand],
-	position: [held, free],
+	orientArr: [orient.stand],
+	orientDesc: "",
+	positionArr: [position.held, position.free],
 };
-const itemMug = {
+const mug = {
 	name: "",
-	orientation: [hold, stand],
-	position: [held],
+	orientArr: [orient.hold, orient.stand],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemPendant = {
+const pendant = {
 	name: "",
-	orientation: [face, hang],
-	position: [worn],
+	orientArr: [orient.face, orient.hang],
+	orientDesc: "",
+	positionArr: [position.worn],
 };
-const itemPot = {
+const pot = {
 	name: "",
-	orientation: [stand],
-	position: [free],
+	orientArr: [orient.stand],
+	orientDesc: "",
+	positionArr: [position.free],
 };
-const itemShovel = {
+const shovel = {
 	name: "",
-	orientation: [wield],
-	position: [held],
+	orientArr: [orient.wield],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemSpear = {
+const spear = {
 	name: "",
-	orientation: [wield],
-	position: [held],
+	orientArr: [orient.wield],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemSword = {
+const sword = {
 	name: "",
-	orientation: [wield],
-	position: [held],
+	orientArr: [orient.wield],
+	orientDesc: "",
+	positionArr: [position.held],
 };
-const itemUrn = {
+const urn = {
 	name: "",
-	orientation: [stand],
-	position: [free],
+	orientArr: [orient.stand],
+	orientDesc: "",
+	positionArr: [position.free],
 };
-const itemVase = {
+const vase = {
 	name: "",
-	orientation: [stand],
-	position: [free],
+	orientArr: [orient.stand],
+	orientDesc: "",
+	positionArr: [position.free],
 };

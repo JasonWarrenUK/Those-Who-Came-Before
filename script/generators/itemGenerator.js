@@ -1,8 +1,10 @@
 import {
-  item as itemTemplate
-} from "../items/anatomy";
+  template as itemTemplate
+} from "../items/item";
+import * as itemState from "./state/items";
+import * as materials from "./items/materials";
 
-const newItem = Object.create(itemTemplate);
+const newArtefact = Object.create(itemTemplate);
 
 function generateType() {
 
@@ -15,45 +17,43 @@ function generateMaterial() {
 /* ----- OLD CODE ----- */
 
 // ITEM CREATION
-function itemCreateRandom() {
-  /* Now, let's dance with the itemCreateRandom function. You're trying to access item.material and item.type, but you never define these properties in your items. You might want to consider adding them to your item objects in the items array. */
-
-  console.log("Running itemCreateRandom");
-  let item = itemsAvailable[indexRandom(itemsAvailable)];
+function artefactCreateRandom() {
+  console.log("Running artefactCreateRandom");
+  let artefact = itemState.available[indexRandom(itemsAvailable)];
 
   // itemsUsed.push(item.type);
   // itemsAvailable.splice(itemsAvailable.indexOf(item), 1);
   
-  itemTraitsApply(item);
+  artefactTraitsApply(artefact);
 
-  let feedback = "Item Created: " + item.material + " " + item.type;
+  let feedback = "Artefact Created: " + artefact.material + " " + artefact.type;
 
   console.log(feedback);
-  console.log("itemsUsed: " + itemsUsed);
-  console.log("itemsAvailable: " + itemsAvailable);
+  console.log("itemState.Used: " + itemsUsed);
+  console.log("itemState.Available: " + itemsAvailable);
 
-  item = item.material + " " + item.type;
+  artefact = artefact.material + " " + artefact.type;
   
-  return item;
+  return artefact;
 }
 
-function itemCreateSet(amount) {
-  console.log("Running itemCreateSet");
-  let itemSet = [];
+function artefactCreateSet(amount) {
+  console.log("Running artefactCreateSet");
+  let artefactSet = [];
   
   for (let i = 0; i < amount; i++) {
-    itemSet.push(itemCreateRandom());
+    artefactSet.push(artefactCreateRandom());
   }
 
-  return itemSet;
+  return artefactSet;
 }
 
-function itemTraitsApply(item) {
-  console.log("Running itemTraitsApply");
-  let materialCategory = materials[indexRandom(materials)];
-  item.material = materialCategory[indexRandom(materialCategory)];
+function artefactTraitsApply(artefact) {
+  console.log("Running artefactTraitsApply");
+  let materialCategory = materials.category[indexRandom(materials.category)];
+  artefact.material = materialCategory[indexRandom(materialCategory)];
 
-  return item;
+  return artefact;
 }
 
 
@@ -70,7 +70,7 @@ function pushToGeneratorOutput(input) {
 // INPUTS
 let genButton = document.getElementById("genButton");
 genButton.addEventListener("click", function() {
-  pushToGeneratorOutput(itemCreateSet(5));
+  pushToGeneratorOutput(artefactCreateSet(5));
 });
 
 // OUTPUTS

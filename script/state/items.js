@@ -1,9 +1,9 @@
-let items = [];
-let itemsAvailable = items.slice();
-let itemsUsed = [];
+let all = [];
+let available = items.slice();
+let used = [];
 
 export {
-	items,
-	itemsAvailable,
-	itemsUsed
+	all,
+	available,
+	used
 };
