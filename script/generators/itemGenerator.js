@@ -38,7 +38,6 @@ function artefactCreateRandom() {
 }
 
 function artefactCreateSet(amount) {
-  console.log("Running artefactCreateSet");
   let artefactSet = [];
   
   for (let i = 0; i < amount; i++) {
@@ -49,8 +48,8 @@ function artefactCreateSet(amount) {
 }
 
 function artefactTraitsApply(artefact) {
-  console.log("Running artefactTraitsApply");
   let materialCategory = materials.category[indexRandom(materials.category)];
+
   artefact.material = materialCategory[indexRandom(materialCategory)];
 
   return artefact;
@@ -59,16 +58,13 @@ function artefactTraitsApply(artefact) {
 
 // WEB DISPLAY
 function pushToGeneratorOutput(input) {
-  console.group("pushToGeneratorOutput");
-    console.log("Clearing Div")
-    generatorOutput.innerHTML = "";
-    console.log("Inserting Content")
-    generatorOutput.innerHTML = "<ul><li>" + input.join("</li><li>") + "</li></ul>";
-  console.groupEnd();
+	generatorOutput.innerHTML = "";
+	generatorOutput.innerHTML = "<ul><li>" + input.join("</li><li>") + "</li></ul>";
 }
 
 // INPUTS
 let genButton = document.getElementById("genButton");
+
 genButton.addEventListener("click", function() {
   pushToGeneratorOutput(artefactCreateSet(5));
 });

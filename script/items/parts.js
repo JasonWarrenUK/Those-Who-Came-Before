@@ -10,6 +10,12 @@ const shaft = ["hilt"];
 // Sub-Categories
 
 // Categories
-const category = [attach, handle, head, join, shaft];
+const category = [
+	attach,
+	handle,
+	head,
+	join,
+	shaft
+];
 
 export {category};
