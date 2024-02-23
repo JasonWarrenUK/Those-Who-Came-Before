@@ -23,6 +23,10 @@ It's about how we talk about other people, and the self-imposed limits we create
 
 A basic artefact generator & [web UI](https://jasonwarrenuk.github.io/Those-Who-Came-Before/). It currently generates lists of 5 unique artefacts, each comprising a type of object (axe, urn, etc) and a material it's made from (wood, bone, etc).
 
+### Which Branches are Being Worked On?
+
+Right now I'm knee deep in the `itemAnatomy` branch
+
 ### What's the Current Focus?
 
 I'm working on a template object for artefacts that will allow dynamic generation of artefacts with variable (but reasonable) constructions. Say the game generates a sword. It...
@@ -151,10 +155,10 @@ More abstracted inferences can be drawn from emergent patterns:
 
 | # | Theme | Status | Next | Branch | Needs |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Interface** | Basic generator | - | - | #3 |
-| 2 | **Artefact Generation** | item-material pairs | item traits | - | #3 |
-| 3 | **Artefact Generation** | - | Dynamic blueprints | itemAnatomy | - |
-| 4 | **Devlog** | README.md | generated site | - | - |
+| 1 | **Interface** | Basic generator | - | `main` | #3 |
+| 2 | **Artefact Generation** | item-material pairs | item traits | `main` | #3 |
+| 3 | **Artefact Generation** | - | Dynamic blueprints | `itemAnatomy` | - |
+| 4 | **Devlog** | README.md | generated site | - | `main` |
 
 ## Other Info
 
