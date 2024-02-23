@@ -21,7 +21,7 @@ It's about how we talk about other people, and the self-imposed limits we create
 
 ### What's the Latest Feature?
 
-A basic artefact generator & web UI. It currently generates lists of 5 unique artefacts, each comprising a type of object (axe, urn, etc) and a material it's made from (wood, bone, etc).
+A basic artefact generator & [web UI](https://jasonwarrenuk.github.io/Those-Who-Came-Before/). It currently generates lists of 5 unique artefacts, each comprising a type of object (axe, urn, etc) and a material it's made from (wood, bone, etc).
 
 ### What's the Current Focus?
 
