@@ -1,4 +1,4 @@
-![]()
+![Ruins under a night sky](/img/banner.png)
 
 # Those Who Came Before
 
