@@ -153,12 +153,12 @@ More abstracted inferences can be drawn from emergent patterns:
 
 ### Progress Chart
 
-| # | Theme | Status | Next | Branch | Needs |
+| # | Theme | Status | Next | Branch | Waiting On |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | **Interface** | Basic generator | - | `main` | #3 |
 | 2 | **Artefact Generation** | item-material pairs | item traits | `main` | #3 |
 | 3 | **Artefact Generation** | - | Dynamic blueprints | `itemAnatomy` | - |
-| 4 | **Devlog** | README.md | generated site | - | `main` |
+| 4 | **Devlog** | README.md | generated site | `main` | - |
 
 ## Other Info
 
