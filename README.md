@@ -1,10 +1,21 @@
+![]()
+
 # Those Who Came Before
 
-## About TWCB
+## What is TWCB About?
 
-### What is TWCB?
+A narrative game about understanding vanished cultures by interpreting procedurally generated artefacts.
 
-A narrative game focussed on understanding a vanished culture by interpreting procedurally generated artefacts.
+### What is TWCB *Really* About?
+
+It's about how we talk about other people, and the self-imposed limits we create through our assumptions.
+
+### Inspiration
+
+- Mali & its amazing history
+- All the knowledge lost when Mayan books were burned
+- The Bronze Age Collapse
+- The Basque language's lost relatives
 
 ## Development
 
