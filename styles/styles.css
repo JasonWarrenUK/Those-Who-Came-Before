@@ -1,29 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
-
-* {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 .alignCenter {
   padding-left: auto;
   padding-right: auto;
 }
-
-body {
-  font-family: 'Open Sans', sans-serif;
-  line-height: 1.75em;
-  font-size: 16px;
-  background-color: #222;
-  color: #aaa;
-}
-
-footer {border-top: 6px double #D8D8D8;}
-
-:is(h3, h4, h5, h6) {font-style: italic;}
-h2 {border-top: 6px double #D8D8D8;}
-h3 {border-top: 2px solid #D8D8D8;}
-h4 {border-top: 1px dotted #D8D8D8;}
-h5 {border-top: 1px dashed #D8D8D8;}
-
-p {font-size: 16px;}
