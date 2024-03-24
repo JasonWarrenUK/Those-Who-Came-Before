@@ -5,4 +5,4 @@ import * as util from "../utilities";
 // Categories
 const category = [];
 
-export {category};
+export { category };

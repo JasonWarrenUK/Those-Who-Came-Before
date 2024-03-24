@@ -1,3 +1,5 @@
+let { RiTa } = require('rita');
+
 import * as util from "../utilities";
 import { category as condition } from "./conditions";
 import { category as part } from "./parts";
@@ -7,4 +9,4 @@ import { category as type } from "./types";
 //Prototype
 const template = {};
 
-export {template};
+export { template };
