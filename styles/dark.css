@@ -1,103 +1,65 @@
-/* Temporary Dark Mode Default */
-  /* Feel free to delete this later, I just keep searing out my retinas */
+.simple-container {
+  max-width: 675px;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-bottom: 20px;
+}
 
-  @import 'https://fonts.googleapis.com/css?family=Open+Sans';
+.simple-print {
+  fill: white;
+  stroke: white;
+}
+.simple-print svg {height: 100%;}
 
-  * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
+.simple-close {
+  color: white;
+  border-color: white;
+}
 
-  body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.75em;
-    font-size: 16px;
-    background-color: #222;
-    color: #aaa;
-  }
+.simple-ext-info {border-top: 1px solid #aaa;}
 
-  .simple-container {
-    max-width: 675px;
-    margin: 0 auto;
-    padding-top: 70px;
-    padding-bottom: 20px;
-  }
+h1 {
+  font-size: 30px;
+  line-height: 34px;
+}
 
-  .simple-print {
-    fill: white;
-    stroke: white;
-  }
-  .simple-print svg {
-    height: 100%;
-  }
+h2 {
+  font-size: 20px;
+  line-height: 25px;
+}
 
-  .simple-close {
-    color: white;
-    border-color: white;
-  }
+h3 {
+  font-size: 16px;
+  line-height: 27px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* border-top: 1px solid #D8D8D8; */
+}
 
-  .simple-ext-info {
-    border-top: 1px solid #aaa;
-  }
+hr {
+  height: 1px;
+  background-color: #d8d8d8;
+  border: none;
+  width: 100%;
+  margin: 0px;
+}
 
-  p {
-    font-size: 16px;
-  }
+a[href] {color: #1e8ad6;}
+a[href]:hover {color: #3ba0e6;}
 
-  h1 {
-    font-size: 30px;
-    line-height: 34px;
-  }
+img {max-width: 100%;}
 
-  h2 {
-    font-size: 20px;
-    line-height: 25px;
-  }
+li {line-height: 1.5em;}
 
-  h3 {
-    font-size: 16px;
-    line-height: 27px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #D8D8D8;
-    border-top: 1px solid #D8D8D8;
-  }
+aside,
+[class *= "sidebar"],
+[id *= "sidebar"] {
+  max-width: 90%;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+  padding: 5px 15px;
+}
 
-  hr {
-    height: 1px;
-    background-color: #d8d8d8;
-    border: none;
-    width: 100%;
-    margin: 0px;
-  }
-
-  a[href] {
-    color: #1e8ad6;
-  }
-
-  a[href]:hover {
-    color: #3ba0e6;
-  }
-
-  img {
-    max-width: 100%;
-  }
-
-  li {
-    line-height: 1.5em;
-  }
-
-  aside,
-  [class *= "sidebar"],
-  [id *= "sidebar"] {
-    max-width: 90%;
-    margin: 0 auto;
-    border: 1px solid lightgrey;
-    padding: 5px 15px;
-  }
-
-  @media (min-width: 1921px) {
-    body {
-      font-size: 18px;
-    }
-  }
+@media (min-width: 1921px) {
+  body {font-size: 18px;}
+}
