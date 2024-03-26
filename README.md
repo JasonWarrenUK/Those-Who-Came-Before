@@ -23,9 +23,19 @@ It's about how we talk about other people, and the self-imposed limits we create
 
 A basic artefact generator & [web UI](https://jasonwarrenuk.github.io/Those-Who-Came-Before/). It currently generates lists of 5 unique artefacts, each comprising a type of object (axe, urn, etc) and a material it's made from (wood, bone, etc).
 
+### Progress Chart
+
+| # | Theme | Current Status | Next Feature | Branch | Waiting On |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| 1 | **Interface** | Basic generator | - | `main` | #2 |
+| 2 | **Artefact Generation** | item-material pairs | item traits | `main` | `#4`, `#5` |
+| 3 | **Devlog** | README.md | generated site | `main` | - |
+| 4 | **Artefact Generation** | - | Dynamic blueprints via raw JavaScript | `itemAnatomy` | - |
+| 5 | **Artefact Generation** | - | Dynamic blueprints via context-free grammar | `itemGrammar` | - |
+
 ### Which Branches are Being Worked On?
 
-Right now I'm knee deep in the `itemAnatomy` branch
+Right now I'm knee deep in the `itemAnatomy` & `itemGrammar` branches
 
 ### What's the Current Focus?
 
@@ -150,15 +160,6 @@ More abstracted inferences can be drawn from emergent patterns:
     - jade was present in neither of them
 - Inferences
   - Jade is a decorative material
-
-### Progress Chart
-
-| # | Theme | Status | Next | Branch | Waiting On |
-| :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Interface** | Basic generator | - | `main` | #3 |
-| 2 | **Artefact Generation** | item-material pairs | item traits | `main` | #3 |
-| 3 | **Artefact Generation** | - | Dynamic blueprints | `itemAnatomy` | - |
-| 4 | **Devlog** | README.md | generated site | `main` | - |
 
 ## Other Info
 
