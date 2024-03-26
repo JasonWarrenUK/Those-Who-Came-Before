@@ -27,11 +27,11 @@ A basic artefact generator & [web UI](https://jasonwarrenuk.github.io/Those-Who-
 
 | # | Theme | Current Status | Next Feature | Branch | Waiting On |
 | :---: | :---: | :---: | :---: | :---: | :---: |
-| 1 | **Interface** | Basic generator | - | `main` | #2 |
+| 1 | **Interface** | Basic generator | - | `main` | `#2` |
 | 2 | **Artefact Generation** | item-material pairs | item traits | `main` | `#4`, `#5` |
-| 3 | **Devlog** | README.md | generated site | `main` | - |
-| 4 | **Artefact Generation** | - | Dynamic blueprints via raw JavaScript | `itemAnatomy` | - |
-| 5 | **Artefact Generation** | - | Dynamic blueprints via context-free grammar | `itemGrammar` | - |
+| 3 | **Devlog** | `README.md` | generated site | `main` | - |
+| 4 | **Artefact Generation** | - | Dynamic blueprints via JavaScript | `itemAnatomy` | - |
+| 5 | **Artefact Generation** | - | Dynamic blueprints via RiTa | `itemGrammar` | - |
 
 ### Which Branches are Being Worked On?
 
