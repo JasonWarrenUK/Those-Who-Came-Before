@@ -1,6 +1,6 @@
 import * as util from "../utilities";
 
-const itemType = {
+const item = {
 	start: "$category",
 	category: "$apparel | $container | $tool",
 	apparel: "$ornament",
@@ -12,6 +12,17 @@ const itemType = {
 	weapon: "axe | dagger | spear | sword"
 }
 
+export const main = {
+	start: "$category",
+	category: "$apparel | $container | $tool",
+	apparel: "ornament",
+	container: "store | vessel",
+	tool: "weapon"
+}
 
-
-export {};
+export const sub = {
+	ornament: "brooch",
+	store: "jar | jug | pot | urn | vase",
+	vessel: "cup | jug | mug",
+	weapon: "axe | dagger | spear | sword"
+};
