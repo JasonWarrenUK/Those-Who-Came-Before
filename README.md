@@ -21,6 +21,8 @@ It's about how we talk about other people, and the self-imposed limits we create
 
 ## Other Info
 
+[Devlog](/devlog/DEVLOG.md)
+
 ### Badges
 
 ![GNU 3.0 License](https://img.shields.io/badge/license-GNU_General_Public_License_3.0-pink)
