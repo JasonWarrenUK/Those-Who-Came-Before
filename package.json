@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "description": "A narrative game about understanding vanished cultures by interpreting procedurally generated artefacts.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/JasonWarrenUK/Those-Who-Came-Before/issues"
   },
-  "homepage": "https://github.com/JasonWarrenUK/Those-Who-Came-Before#readme"
+  "homepage": "https://github.com/JasonWarrenUK/Those-Who-Came-Before#readme",
+  "dependencies": {
+    "rita": "^3.1.2"
+  }
 }
