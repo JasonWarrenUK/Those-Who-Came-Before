@@ -1,6 +1,6 @@
 # D-Place
 
-## How to cite ⇫ 
+## How to Cite
 
 Research that uses data from D-PLACE should cite the following paper:
 

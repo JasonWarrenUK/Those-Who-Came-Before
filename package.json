@@ -1,0 +1,26 @@
+{
+  "name": "those-who-came-before",
+  "version": "0.1.0",
+  "description": "A narrative game about understanding vanished cultures by interpreting procedurally generated artefacts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JasonWarrenUK/Those-Who-Came-Before.git"
+  },
+  "keywords": [
+    "narrative",
+    "archaeology",
+    "game",
+    "procedural",
+    "generation"
+  ],
+  "author": "Jason Warren",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JasonWarrenUK/Those-Who-Came-Before/issues"
+  },
+  "homepage": "https://github.com/JasonWarrenUK/Those-Who-Came-Before#readme"
+}
