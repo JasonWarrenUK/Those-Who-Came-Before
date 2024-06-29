@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-uk">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <title>Those Who Came Before</title>
-  <meta description="A narrative game about interpreting the past"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
+  <title>Those Who Came Before</title>
+
   <link href="styles/normalize.css" rel="stylesheet">
   <link href="styles/dark.css" rel="stylesheet">
   <link href="styles/styles.css" rel="stylesheet">
-  
+
   <script src="script/itemGenerator.js" defer></script>
 </head>
 
@@ -20,71 +19,24 @@
     <pre>A Small Game About How We See the Past</pre>
   </header>
 
-	<section>
-		<h2>item-grammars</h2>
-		<p>This branch is an offshot of item-anatomy, to experiment with shifting to a context-free grammar model of item generation.</p>
-	</section>
+  <hr/>
 
   <main>
-    <section id="dev">
-      <h2>Dev</h2>
-
-      <div id="devCatalogue">
-        <h3>Encyclopedia</h3>
-        <div id="devItem">
-          <h4>Items</h4>
-
-          <p>Main item generation goes here</p>
-          
-          <div id="devItemCondition">
-            <h5>Item Conditions</h5>
-
-            <p>Item conditions go here, like weathered or pristine</p>
-          </div>
-
-          <div id="devItemMaterial">
-            <h5>Item Materials</h5>
-
-            <p>Item materials go here, like stone or metal</p>
-          </div>
-
-          <div id="devItemPart">
-            <h5>Item Parts</h5>
-
-            <p>Item parts go here, like handle or head</p>
-          </div>
-
-          <div id="devItemType">
-            <h5>Item Types</h5>
-
-            <p>Item types go here, like tool or vessel</p>
-          </div>
-        </div>
+    <section>
+      <h2>Item Generator</h2>
+      <div>
+        <button id="genButton">Generate</button>
       </div>
-
-      <div id=""></div>
-
-      <div id=""></div>
-    </section>
-
-    <section id="gen">
-      <div id="itemGen">
-        <h2>Item Generator</h2>
-        
-        <button id="genButton">
-          Generate
-        </button>
-        
-        <div id="genHolder">
-        </div>
+      
+      <div id="genHolder">
       </div>
     </section>
   </main>
 
+  <hr/>
+
   <footer>
-    <pre>
-      Created by <a href="https://github.com/neurosocialist">Jason Warren</a> & Harriet Layhe
-    </pre>
+    <pre>Created by <a href="https://github.com/neurosocialist">Jason Warren</a> & Harriet Layhe</pre>
   </footer>
 </body>
 </html>
