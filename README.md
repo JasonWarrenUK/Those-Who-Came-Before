@@ -1,6 +1,6 @@
-![Ruins under a night sky](/img/banner.png)
-
 # Those Who Came Before
+
+![Ruins under a night sky](/img/banner.png)
 
 ## What is TWCB About?
 
@@ -10,21 +10,30 @@ A narrative game about understanding vanished cultures by interpreting procedura
 
 It's about how we talk about other people, and the self-imposed limits we create through our assumptions.
 
-### Inspiration
+---
+
+## Development
+
+- [Devlog](/docs/DEVLOG.md)
+- [Roadmap](/docs/TASKLIST.md)
+
+---
+
+## Inspiration
+
+### Themes & Ideas
 
 - Mali & its amazing history
 - All the knowledge lost when Mayan books were burned
 - The Bronze Age Collapse
 - The Basque language's lost relatives
 
-## Development
+### Games & Media
 
-- Check out the [Devlog](/docs/DEVLOG.md)
+- Strange Horticulture
+- Heaven's Vault
 
-## Other Info
-
-- [Devlog](/docs/DEVLOG.md)
-- [Roadmap](/docs/TASKLIST.md)
+---
 
 ### Badges
 
