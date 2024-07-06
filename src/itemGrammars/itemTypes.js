@@ -1,4 +1,4 @@
-import * as util from "../utilities";
+import { indexRandom } from "../utils/indexRandom.js";
 
 const item = {
 	start: "$category",

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    // Inputs
+		"allowJs": true,
+    // Outputs
+    "outDir": "./dist",
+    "target": "esnext",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+		//Utilities
+    "declarationMap": true
+  },
+  "include": ["./src/**/*"]
+}

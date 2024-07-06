@@ -1,20 +1,24 @@
-let { RiTa } = require('rita');
-
-import * as util from "../utilities";
-import { category as condition } from "./conditions";
-import { category as part } from "./parts";
-import { category as material } from "./materials";
-import * as type from "./types";
+import * as rita from "rita";
+import { indexRandom } from "../utils/indexRandom.js";
+/* import { category as condition } from "./itemConditions.js"; */
+/* import { category as part } from "./itemParts.js"; */
+/* import { category as material } from "./itemMaterials.js"; */
+import * as type from "./itemTypes.js";
 
 //Prototype
-function ItemType() {
+export function itemType() {
 	this.category = type.main.start;
+	console.log(this.category);
+
 	this.categoryRiTa = "$" + this.category;
-	this.type = type.sub.${this.categoryRiTa};
+	console.log(this.categoryRiTa);
+
+	/* this.type = type.sub.${this.categoryRiTa};
+	console.log(this.type); */
 };
 
-function Item() {
-
+export function item() {
+	return;
 };
 
-export { Item };
+itemType();
