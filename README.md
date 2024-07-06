@@ -2,9 +2,7 @@
 
 ![Ruins under a night sky](/img/banner.png)
 
-## Overview
-
-### What is TWCB About?
+## What is TWCB About?
 
 A narrative game about understanding vanished cultures by interpreting procedurally generated artefacts.
 
@@ -12,14 +10,30 @@ A narrative game about understanding vanished cultures by interpreting procedura
 
 It's about how we talk about other people, and the self-imposed limits we create through our assumptions.
 
-### Inspiration
+---
+
+## Development
+
+- [Devlog](/docs/DEVLOG.md)
+- [Roadmap](/docs/TASKLIST.md)
+
+---
+
+## Inspiration
+
+### Themes & Ideas
 
 - Mali & its amazing history
 - All the knowledge lost when Mayan books were burned
 - The Bronze Age Collapse
 - The Basque language's lost relatives
 
-## Other Info
+### Games & Media
+
+- Strange Horticulture
+- Heaven's Vault
+
+---
 
 [Devlog](/devlog/DEVLOG.md)
 
