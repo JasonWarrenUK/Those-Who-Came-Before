@@ -1,4 +1,4 @@
-import * as utils from "./utils/utils.js";
+import * as utils from "./utils/indexRandom.js";
 import * as rita from "rita";
 
 //h1 ENCYCLOPEDIA
