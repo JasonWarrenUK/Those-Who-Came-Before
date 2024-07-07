@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/index.js"
+    "dev": "node src/tests/rita.js"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,7 @@
     "narrative",
     "archaeology",
     "game",
-    "procedural",
-    "generation"
+    "procedural-generation"
   ],
   "author": "Jason Warren",
   "license": "ISC",
