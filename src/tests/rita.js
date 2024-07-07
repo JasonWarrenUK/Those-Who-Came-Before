@@ -1,17 +1,5 @@
-import * as rita from "rita";
+import { itemCreateSet } from "../itemGenerator.js";
+import { analyseItem } from "../utils/useRita.js";
 
-// to load a grammar
-//let grammar = RiTa.grammar();
-//console.log(grammar.expand());
-
-export function analyseItem(inputArr) {
-  let data = [];
-  console.groupCollapsed("Rita Test");
-  for (let i = 0; i < inputArr.length; i++) {
-    console.log(`Analysing ${inputArr[i].name}`);
-    data.push(rita.RiTa.analyze(inputArr[i].name));
-    console.log(`${inputArr[i].name} is pronounced ${data[i].syllables}`);
-  }
-  console.groupEnd();
-  return data;
-}
+const testResults = itemCreateSet(1);
+analyseItem(testResults);

@@ -8,7 +8,20 @@
     "declaration": true,
     "emitDeclarationOnly": true,
 		//Utilities
-    "declarationMap": true
+    "declarationMap": true,
+		//New Stuff
+		"skipLibCheck": true,
+		"module": "esnext",
+		"moduleResolution": "bundler",
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"allowImportingTsExtensions": true,
+		"lib": ["ESNext"],
+		"baseUrl": "./"
   },
-  "include": ["./src/**/*"]
+  "include": [
+		"./src/**/*",
+		"bin/*"
+	],
+	"exclude": ["node_modules"]
 }

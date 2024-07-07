@@ -1,5 +1,5 @@
 // import * as rita from "rita";
-import RiTa from "rita";
+import { RiTa } from "rita";
 // import RiTa = rita;
 
 
@@ -19,5 +19,5 @@ export function analyseItem(inputArr) {
 }
 
 export function analyseObjectProperty (obj, prop) {
-	RiTa
+	return;
 }
